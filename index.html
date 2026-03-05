@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pranto Furniture | Modern Furniture Showroom</title>
+    <meta
+      name="description"
+      content="Pranto Furniture modern responsive showroom website with WhatsApp ordering."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home" aria-label="Pranto Furniture Home">
+          <span class="brand-logo">PF</span>
+          <span class="brand-text">
+            <strong>Pranto Furniture</strong>
+            <small>Modern Living</small>
+          </span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav">
+          ☰
+        </button>
+
+        <nav class="main-nav" id="mainNav">
+          <a href="#home">Home</a>
+          <a href="#chairs">Chairs</a>
+          <a href="#beds">Beds</a>
+          <a href="#dressing">Dressing Tables</a>
+          <a href="#combo">Combo Packs</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a class="btn btn-primary" href="#contact">Order / Contact</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container">
+          <div class="slider" id="heroSlider"></div>
+          <div class="slider-controls">
+            <button id="prevSlide" aria-label="Previous slide">←</button>
+            <button id="nextSlide" aria-label="Next slide">→</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Top Selling Furniture</h2>
+            <div class="filter-group" id="filterGroup"></div>
+          </div>
+          <div class="product-grid" id="topSellingGrid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="chairs">
+        <div class="container">
+          <div class="section-head">
+            <h2>Chairs Collection</h2>
+            <a class="see-all" href="category.html?category=chairs">See All</a>
+          </div>
+          <div class="product-grid" id="chairsGrid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="beds">
+        <div class="container">
+          <div class="section-head">
+            <h2>Beds Collection</h2>
+            <a class="see-all" href="category.html?category=beds">See All</a>
+          </div>
+          <div class="product-grid" id="bedsGrid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="dressing">
+        <div class="container">
+          <div class="section-head">
+            <h2>Dressing Tables</h2>
+            <a class="see-all" href="category.html?category=dressing-tables">See All</a>
+          </div>
+          <div class="product-grid" id="dressingGrid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="combo">
+        <div class="container">
+          <div class="section-head">
+            <h2>Combo Packs</h2>
+            <a class="see-all" href="category.html?category=combo-packs">See All</a>
+          </div>
+          <div class="product-grid" id="comboGrid"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <div class="container footer-grid">
+        <div>
+          <h3>Pranto Furniture</h3>
+          <p>123 Demo Avenue, Dhanmondi, Dhaka, Bangladesh</p>
+          <p>Phone: +880 1712-345678</p>
+          <p>WhatsApp: +880 1712-345678</p>
+          <p>Email: hello@prantofurniture.demo</p>
+        </div>
+        <div>
+          <h4>Google Maps</h4>
+          <a
+            href="https://maps.google.com/?q=Dhanmondi,Dhaka"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Open Store Location</a
+          >
+        </div>
+        <div>
+          <h4>Follow Us</h4>
+          <div class="socials">
+            <a href="#" aria-label="Facebook">Facebook</a>
+            <a href="#" aria-label="Instagram">Instagram</a>
+            <a href="#" aria-label="YouTube">YouTube</a>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">© 2026 Pranto Furniture. All rights reserved.</p>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
